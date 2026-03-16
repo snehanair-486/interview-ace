@@ -16,9 +16,8 @@ InterviewAce is a free AI-powered mock interview coach that helps students and f
 - 📄 **Resume-aware questions** — paste your resume and Nova tailors every question to your actual experience
 - 🎚️ **Difficulty levels** — Easy, Medium, or Hard
 - 💬 **Real-time feedback** — Nova gives coaching feedback after every answer
-- 🎙️ **Voice input** — speak your answers using the mic button
-- 🔊 **Text-to-speech** — hear the interviewer's questions read aloud
 - 🎯 **Role-specific** — works for any job role
+- 💬 **Conversational flow** — natural back and forth chat interface
 
 ---
 
@@ -26,7 +25,6 @@ InterviewAce is a free AI-powered mock interview coach that helps students and f
 
 - **AI Model:** Amazon Nova Lite via AWS Bedrock
 - **Frontend:** Streamlit
-- **Voice:** SpeechRecognition + pyttsx3
 - **Cloud:** AWS (Bedrock, IAM)
 - **Language:** Python
 
@@ -42,13 +40,7 @@ cd interview-ace
 
 ### 2. Install dependencies
 ```bash
-pip install boto3 streamlit SpeechRecognition pyttsx3 awscli
-```
-
-If pyaudio fails:
-```bash
-pip install pipwin
-pipwin install pyaudio
+pip install boto3 streamlit awscli
 ```
 
 ### 3. Configure AWS
