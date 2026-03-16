@@ -31,3 +31,35 @@ InterviewAce is a free AI-powered mock interview coach that helps students and f
 - **Language:** Python
 
 ---
+
+## 🚀 Quick Start
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/snehanair-486/interview-ace.git
+cd interview-ace
+```
+
+### 2. Install dependencies
+```bash
+pip install boto3 streamlit SpeechRecognition pyttsx3 awscli
+```
+
+If pyaudio fails:
+```bash
+pip install pipwin
+pipwin install pyaudio
+```
+
+### 3. Configure AWS
+```bash
+aws configure
+```
+Enter your Access Key, Secret Key, region `us-east-1`, format `json`.
+Make sure your IAM user has **AmazonBedrockFullAccess** attached.
+
+### 4. Run
+```bash
+streamlit run app.py
+```
+Opens at `http://localhost:8501` 🎉
