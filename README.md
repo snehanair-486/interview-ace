@@ -1,5 +1,5 @@
 # 🎤 InterviewAce
-### AI-powered mock interviews for students — powered by Amazon Nova
+### AI-powered mock interviews for students - powered by Amazon Nova
 
 Built for the **Amazon Nova AI Hackathon** | Category: Voice AI
 
