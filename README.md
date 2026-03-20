@@ -54,4 +54,4 @@ Make sure your IAM user has **AmazonBedrockFullAccess** attached.
 ```bash
 streamlit run app.py
 ```
-Opens at `http://localhost:8501` 🎉
+
