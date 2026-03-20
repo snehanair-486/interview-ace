@@ -7,7 +7,7 @@ Built for the **Amazon Nova AI Hackathon** | Category: Voice AI
 
 ## 🎯 What is InterviewAce?
 
-InterviewAce is a free AI-powered mock interview coach that helps students and fresh graduates prepare for job interviews. Most students can't afford human interview coaching — InterviewAce solves that by providing a personalized, intelligent interviewer available 24/7.
+InterviewAce is a free AI-powered mock interview coach that helps students and fresh graduates prepare for job interviews. Most students can't afford human interview coaching, InterviewAce solves that by providing a personalized, intelligent interviewer available 24/7.
 
 ---
 
